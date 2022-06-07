@@ -1,0 +1,134 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin:0px;
+    padding: 0px;
+    color: #000;
+  }
+
+  .intro{
+      background-color:#fff ;
+      width: 1280px;
+      height: 86px;
+      margin: auto;
+  }
+
+  .header{
+      width: 1280px;
+      margin: auto;
+      display: flex;
+      height: 86px;
+
+  }
+  .nav1{
+      display: flex;
+      justify-content: flex-start;
+      width: calc(1280px -300px);
+      line-height: 86px;
+      padding-left: 30px ;
+  }
+  .nav2{
+      display: flex;
+      justify-content: flex-end;
+      width: calc(1280px - 300px);
+      line-height: 86px;
+  }
+  .nav2 > li {
+    margin-left:84px;
+  }
+  
+.me{
+    width: 300px;
+    height: auto;
+    padding: 25px;
+}
+.main_img{
+    width: 400px;
+    height: 700px;
+    padding: 25px;   
+    float: left; 
+}
+.main_text{
+    width:1230px;
+    height: 700px;
+    padding: 25px;   
+}
+.footer{
+    margin-top:750px ;
+    display: flex;
+    background: #1f1f1f;
+    padding:30px;
+    height: 80px;
+  }
+  .footer > div:first-child {
+    flex:3;
+    text-align: center;
+    color: #fff;
+  }
+  .footer > div:last-child {
+    flex:9;
+    color: #fff;
+  }
+
+  .main{
+    width: 1280px;
+    margin: auto;
+
+  }
+  .sns_img{
+    width: 240px;
+    height: 128px;
+  }
+
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #000;
+    float: left;
+    width: 240px;
+  }
+
+  .ep{
+    padding: 15px;
+    text-align: center;
+  }
+  .main{
+    margin-top: 70px;
+  }
+  .life_img{
+    width: 250px;
+    float: left;
+    margin: 10px;
+  }
+  .row::after {
+    clear: both;
+    display: table;
+  }
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    margin-left: 150px;
+    padding: 0;
+  }
+  [class*="col-"] {
+    float: left;
+    padding: 30px;
+  }
+  .menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: lightgray;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+  .menu li :hover {
+    background-color: darkgray;
+  }
+
+  .galaxy_img{
+    width: 400px;
+    height: auto;
+    margin-bottom: 300px;
+    float: left;
+  }
